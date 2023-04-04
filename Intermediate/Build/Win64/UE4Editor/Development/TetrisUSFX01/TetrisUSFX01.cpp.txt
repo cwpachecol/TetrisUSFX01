@@ -1,0 +1,2 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\TetrisUSFX01.h
