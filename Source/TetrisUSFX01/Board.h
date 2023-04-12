@@ -27,4 +27,25 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY()
+	APiece* CurrentPiece;
+
+	void Rotate(); 
+	void MoveLeft(); 
+	void MoveRight();
+	void MoveDown(); 
+	void NewPiece();
+	void CheckLine();
+	void MoveDownToEnd();
+
+private:
+	enum PieceStatus { PS_NOT_INITED, PS_MOVING, PS_GOT_BOTTOM };
+	PieceStatus Status = PS_NOT_INITED;
+
+	const float CoolDown = 0.5f;
+	float CoolLeft = 0.5f;
+	bool bGameOver = false;
+
+	bool CheckGameOver();
+
 };

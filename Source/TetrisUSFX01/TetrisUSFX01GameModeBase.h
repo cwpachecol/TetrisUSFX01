@@ -17,6 +17,8 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	ATetrisUSFX01GameModeBase();
+
 	UPROPERTY()
 	ABlock* SpawnedActor;
 	
@@ -25,5 +27,9 @@ public:
 
 	UFUNCTION()
 	void DestroyActorFunction();
+
+	virtual void Tick(float DeltaTime) override;
+private:
+	float siguientePosicionZ;
 
 };

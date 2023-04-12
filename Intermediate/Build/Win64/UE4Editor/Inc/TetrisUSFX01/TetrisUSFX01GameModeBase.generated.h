@@ -44,7 +44,7 @@ public: \
 
 #define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ATetrisUSFX01GameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ATetrisUSFX01GameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATetrisUSFX01GameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATetrisUSFX01GameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetrisUSFX01GameModeBase); \
@@ -56,8 +56,6 @@ public:
 
 
 #define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ATetrisUSFX01GameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATetrisUSFX01GameModeBase(ATetrisUSFX01GameModeBase&&); \
@@ -65,7 +63,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATetrisUSFX01GameModeBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATetrisUSFX01GameModeBase); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATetrisUSFX01GameModeBase)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATetrisUSFX01GameModeBase)
 
 
 #define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_14_PRIVATE_PROPERTY_OFFSET

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Block.h"
+#include <functional>
 #include "Piece.generated.h"
 
 UCLASS()
@@ -28,8 +29,14 @@ public:
 	UPROPERTY()
 		class USceneComponent* SceneComponent;
 
+	void DrawDebugLines();
+	void TestRotate();
+	void MoveLeft();
+	void MoveRight();
+	bool MoveDown(bool PlaySound = true);
 	void Dismiss();
-
+	bool CheckWillCollision(std::function<FVector(FVector OldLocation)> ChangeBeforeCheck);
+	
 private:
 	TArray<ABlock*> Blocks;
 
