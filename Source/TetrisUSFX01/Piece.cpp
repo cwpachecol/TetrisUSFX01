@@ -15,6 +15,36 @@ APiece::APiece()
 
 	SceneComponent = CreateDefaultSubobject<USceneComponent>("Pieces Scene");
 	RootComponent = SceneComponent;
+
+    struct FConstructorStatics
+    {
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_0;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_1;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_2;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_3;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_4;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_5;
+        ConstructorHelpers::FObjectFinderOptional<UMaterial> Color_6;
+        FConstructorStatics()
+            : Color_0(TEXT("Material'/Game/Mesh/Material_0.Material_0'"))
+            , Color_1(TEXT("Material'/Game/Mesh/Material_1.Material_1'"))
+            , Color_2(TEXT("Material'/Game/Mesh/Material_2.Material_2'"))
+            , Color_3(TEXT("Material'/Game/Mesh/Material_3.Material_3'"))
+            , Color_4(TEXT("Material'/Game/Mesh/Material_4.Material_4'"))
+            , Color_5(TEXT("Material'/Game/Mesh/Material_5.Material_5'"))
+            , Color_6(TEXT("Material'/Game/Mesh/Material_6.Material_6'"))
+        {
+        }
+    };
+    static FConstructorStatics ConstructorStatics;
+    Colors.Add(ConstructorStatics.Color_0.Get());
+    Colors.Add(ConstructorStatics.Color_1.Get());
+    Colors.Add(ConstructorStatics.Color_2.Get());
+    Colors.Add(ConstructorStatics.Color_3.Get());
+    Colors.Add(ConstructorStatics.Color_4.Get());
+    Colors.Add(ConstructorStatics.Color_5.Get());
+    Colors.Add(ConstructorStatics.Color_6.Get());
+
 }
 
 // Called when the game starts or when spawned
@@ -51,7 +81,7 @@ void APiece::SpawnBlocks()
     {
         FRotator Rotation(0.0, 0.0, 0.0);
         ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
-        //B->Mesh->SetMaterial(1, Colors[Index]);
+        B->BlockMesh->SetMaterial(1, Colors[Index]);
         Blocks.Add(B);
         B->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
         B->SetActorRelativeLocation(FVector(0.0, YZ.first, YZ.second));

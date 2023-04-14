@@ -12,13 +12,13 @@ ABlock::ABlock()
 	BlockMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BlockMesh"));
 	RootComponent = BlockMesh;
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> BlockMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> BlockMeshAsset(TEXT("StaticMesh'/Game/Mesh/block.block'"));
 
 	if (BlockMeshAsset.Succeeded())
 	{
 		BlockMesh->SetStaticMesh(BlockMeshAsset.Object);
 		BlockMesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
-		BlockMesh->SetWorldScale3D(FVector(0.1f, 0.1f, 0.1f));
+		//BlockMesh->SetWorldScale3D(FVector(0.1f, 0.1f, 0.1f));
 
 		//AActor* MyActor = ...; // Obtener el puntero al actor que se desea modificar
 		//FVector NewScale(2.0f, 2.0f, 2.0f); // Crear un vector que representa la nueva escala

@@ -37,9 +37,13 @@ public:
 	void Dismiss();
 	bool CheckWillCollision(std::function<FVector(FVector OldLocation)> ChangeBeforeCheck);
 	
-private:
-	TArray<ABlock*> Blocks;
+	UPROPERTY(EditAnywhere)
+	TArray<class UMaterial*> Colors;
 
+private:
+
+	TArray<ABlock*> Blocks;
+	
 public:
 	void SpawnBlocks();
 
