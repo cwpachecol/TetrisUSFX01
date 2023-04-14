@@ -18,6 +18,7 @@ ABlock::ABlock()
 	{
 		BlockMesh->SetStaticMesh(BlockMeshAsset.Object);
 		BlockMesh->SetRelativeLocation(FVector(0.0f, 0.0f, 0.0f));
+		
 		//BlockMesh->SetWorldScale3D(FVector(0.1f, 0.1f, 0.1f));
 
 		//AActor* MyActor = ...; // Obtener el puntero al actor que se desea modificar
