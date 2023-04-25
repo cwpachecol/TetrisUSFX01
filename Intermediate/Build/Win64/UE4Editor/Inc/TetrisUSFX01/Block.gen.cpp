@@ -76,7 +76,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ABlock_Statics::PropPointers),
 		0,
-		0x009000A4u,
+		0x009000A5u,
 		METADATA_PARAMS(Z_Construct_UClass_ABlock_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABlock_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABlock()
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock, 2937704378);
+	IMPLEMENT_CLASS(ABlock, 1936774249);
 	template<> TETRISUSFX01_API UClass* StaticClass<ABlock>()
 	{
 		return ABlock::StaticClass();

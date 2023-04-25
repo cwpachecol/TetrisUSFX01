@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesABlock(); \
 	friend struct Z_Construct_UClass_ABlock_Statics; \
 public: \
-	DECLARE_CLASS(ABlock, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TetrisUSFX01"), NO_API) \
+	DECLARE_CLASS(ABlock, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TetrisUSFX01"), NO_API) \
 	DECLARE_SERIALIZER(ABlock)
 
 
@@ -30,14 +30,14 @@ private: \
 	static void StaticRegisterNativesABlock(); \
 	friend struct Z_Construct_UClass_ABlock_Statics; \
 public: \
-	DECLARE_CLASS(ABlock, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/TetrisUSFX01"), NO_API) \
+	DECLARE_CLASS(ABlock, AActor, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/TetrisUSFX01"), NO_API) \
 	DECLARE_SERIALIZER(ABlock)
 
 
 #define TetrisUSFX01_Source_TetrisUSFX01_Block_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABlock(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlock) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlock) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABlock); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlock); \
 private: \
@@ -55,7 +55,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABlock); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlock); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABlock)
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(ABlock)
 
 
 #define TetrisUSFX01_Source_TetrisUSFX01_Block_h_12_PRIVATE_PROPERTY_OFFSET

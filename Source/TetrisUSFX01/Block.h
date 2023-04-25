@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Block.generated.h"
 
-UCLASS()
+UCLASS(Abstract)
 class TETRISUSFX01_API ABlock : public AActor
 {
 	GENERATED_BODY()
@@ -23,6 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//virtual void MostrarInformacion() = 0;
+	void MostrarInformacion() PURE_VIRTUAL(ABlock::MostrarInformacion, );
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* BlockMesh;
 

@@ -35,6 +35,7 @@ void ATetrisUSFX01GameModeBase::BeginPlay()
     {
         UE_LOG(LogTemp, Warning, TEXT("Find camera: %s"), *(it->GetFName().ToString()));
         if (it->GetFName() == TEXT("BoardCamera"))
+        //if (it->GetFName() == TEXT("LeftCamera"))
         {
             APlayerController* PC = UGameplayStatics::GetPlayerController(this, 0);
             PC->SetViewTargetWithBlend(*it, 0.5);

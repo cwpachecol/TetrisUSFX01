@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #include <vector>
+//#include "BlockHijo02.h"
 
 // Sets default values
 APiece::APiece()
@@ -80,7 +81,15 @@ void APiece::SpawnBlocks()
     for (auto&& YZ : YZs)
     {
         FRotator Rotation(0.0, 0.0, 0.0);
-        ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
+        //ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
+        ABlock* B = nullptr;
+
+        if (FMath::RandRange(0, 1) == 0) {
+            B = GetWorld()->SpawnActor<ABlockHijo01>(this->GetActorLocation(), Rotation);
+        }
+        else {
+            B = GetWorld()->SpawnActor<ABlockHijo02>(this->GetActorLocation(), Rotation);
+        }
         B->BlockMesh->SetMaterial(1, Colors[Index]);
         Blocks.Add(B);
         B->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);

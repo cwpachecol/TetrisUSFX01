@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "Block.h"
+#include "BlockHijo02.h"
 #include "Piece.h"
 #include "TetrisUSFX01GameModeBase.generated.h"
 
@@ -20,7 +20,7 @@ public:
 	ATetrisUSFX01GameModeBase();
 
 	UPROPERTY()
-	ABlock* SpawnedActor;
+	ABlockHijo02* SpawnedActor;
 	
 	UPROPERTY()
 	APiece* SpawnedPiece;

@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTetrisUSFX01GameModeBase() {}
 	TETRISUSFX01_API UClass* Z_Construct_UClass_ATetrisUSFX01GameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_TetrisUSFX01();
-	TETRISUSFX01_API UClass* Z_Construct_UClass_ABlock_NoRegister();
+	TETRISUSFX01_API UClass* Z_Construct_UClass_ABlockHijo02_NoRegister();
 	TETRISUSFX01_API UClass* Z_Construct_UClass_APiece_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ATetrisUSFX01GameModeBase::execDestroyActorFunction)
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeTetrisUSFX01GameModeBase() {}
 		{ "ModuleRelativePath", "TetrisUSFX01GameModeBase.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor = { "SpawnedActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATetrisUSFX01GameModeBase, SpawnedActor), Z_Construct_UClass_ABlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor = { "SpawnedActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATetrisUSFX01GameModeBase, SpawnedActor), Z_Construct_UClass_ABlockHijo02_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics::NewProp_SpawnedPiece_MetaData[] = {
 		{ "ModuleRelativePath", "TetrisUSFX01GameModeBase.h" },
@@ -138,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeTetrisUSFX01GameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATetrisUSFX01GameModeBase, 3477774194);
+	IMPLEMENT_CLASS(ATetrisUSFX01GameModeBase, 744409364);
 	template<> TETRISUSFX01_API UClass* StaticClass<ATetrisUSFX01GameModeBase>()
 	{
 		return ATetrisUSFX01GameModeBase::StaticClass();

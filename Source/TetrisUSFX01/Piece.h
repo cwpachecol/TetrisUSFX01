@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Block.h"
+#include "BlockHijo01.h"
+#include "BlockHijo02.h"
 #include <functional>
 #include "Piece.generated.h"
 
