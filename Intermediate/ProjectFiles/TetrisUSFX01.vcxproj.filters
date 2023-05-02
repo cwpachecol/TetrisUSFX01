@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TetrisUSFX01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{577C460D-86EF-4DFD-9E28-4C85C48DF477}</UniqueIdentifier>
+      <UniqueIdentifier>{6360AA1B-FD02-4BA9-8C53-F9F26D2AE852}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TetrisUSFX01.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F704085D-960D-4DF0-B23B-EC540701AAA6}</UniqueIdentifier>
+      <UniqueIdentifier>{97FFFF28-6FBE-42DF-B1F5-0A01C092BA8F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TetrisUSFX01">
-      <UniqueIdentifier>{87B9F1CB-9A44-4872-AA65-6A4B95E11326}</UniqueIdentifier>
+      <UniqueIdentifier>{7D34FAED-5524-4FC5-8524-7228390AABBA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TetrisUSFX01\Block.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
@@ -54,6 +54,12 @@
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TetrisUSFX01\Board.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\MyInterface.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\MyInterface.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\Piece.cpp">
