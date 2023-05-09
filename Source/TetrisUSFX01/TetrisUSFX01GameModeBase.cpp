@@ -62,10 +62,10 @@ void ATetrisUSFX01GameModeBase::Tick(float DeltaTime)
 
 void ATetrisUSFX01GameModeBase::DestroyActorFunction()
 {
-	if (SpawnedActor != nullptr)
-   {
-      // Displays a red message on the screen for 10 seconds
-      GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, TEXT("Actor Block destruido"));
-      SpawnedActor->Destroy();
-   }
+	//if (SpawnedActor != nullptr)
+ //  {
+ //     // Displays a red message on the screen for 10 seconds
+ //     GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, TEXT("Actor Block destruido"));
+ //     SpawnedActor->Destroy();
+ //  }
 }

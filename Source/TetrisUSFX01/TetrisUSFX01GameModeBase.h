@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "BlockHijo02.h"
 #include "Piece.h"
 #include "TetrisUSFX01GameModeBase.generated.h"
 
@@ -19,9 +18,7 @@ protected:
 public:
 	ATetrisUSFX01GameModeBase();
 
-	UPROPERTY()
-	ABlockHijo02* SpawnedActor;
-	
+
 	UPROPERTY()
 	APiece* SpawnedPiece;
 

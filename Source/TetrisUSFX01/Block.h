@@ -28,4 +28,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* BlockMesh;
 
+	UPROPERTY(EditAnywhere)
+	TArray<class UMaterial*> Materials;
+
+
 };
