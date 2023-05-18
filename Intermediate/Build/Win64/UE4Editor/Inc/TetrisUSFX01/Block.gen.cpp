@@ -52,15 +52,19 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//UCLASS(Abstract)\n" },
 		{ "IncludePath", "Block.h" },
 		{ "ModuleRelativePath", "Block.h" },
+		{ "ToolTip", "UCLASS(Abstract)" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlock_Statics::NewProp_BlockMesh_MetaData[] = {
 		{ "Category", "Block" },
+		{ "Comment", "//virtual void MostrarInformacion() = 0;\n//void MostrarInformacion() PURE_VIRTUAL(ABlock::MostrarInformacion, );\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Block.h" },
+		{ "ToolTip", "virtual void MostrarInformacion() = 0;\nvoid MostrarInformacion() PURE_VIRTUAL(ABlock::MostrarInformacion, );" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlock_Statics::NewProp_BlockMesh = { "BlockMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlock, BlockMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABlock_Statics::NewProp_BlockMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlock_Statics::NewProp_BlockMesh_MetaData)) };
@@ -92,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ABlock_Statics::PropPointers),
 		0,
-		0x009000A5u,
+		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABlock_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABlock_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABlock()
@@ -104,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeBlock() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlock, 1683476803);
+	IMPLEMENT_CLASS(ABlock, 3401154548);
 	template<> TETRISUSFX01_API UClass* StaticClass<ABlock>()
 	{
 		return ABlock::StaticClass();

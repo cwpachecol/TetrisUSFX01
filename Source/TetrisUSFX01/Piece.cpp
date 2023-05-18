@@ -82,8 +82,8 @@ void APiece::SpawnBlocks()
     for (auto&& YZ : YZs)
     {
         FRotator Rotation(0.0, 0.0, 0.0);
-        //ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
-        ABlock* B = nullptr;
+        ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
+        //ABlock* B = nullptr;
 
         //if (FMath::RandRange(0, 1) == 1) {
         //    ABlockMetallic* BM = GetWorld()->SpawnActor<ABlockMetallic>(this->GetActorLocation(), Rotation);
@@ -107,9 +107,9 @@ void APiece::SpawnBlocks()
         //    B = (ABlock*)BS;
         //}
 
-        //ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
+       /* ABlock* B = GetWorld()->SpawnActor<ABlock>(this->GetActorLocation(), Rotation);
 
-        
+        */
         Blocks.Add(B);
         B->AttachToActor(this, FAttachmentTransformRules::KeepRelativeTransform);
         B->SetActorRelativeLocation(FVector(0.0, YZ.first, YZ.second));

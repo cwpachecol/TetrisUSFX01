@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TetrisUSFX01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C5BEFC79-2BBC-4899-BE8D-48A8193829E4}</UniqueIdentifier>
+      <UniqueIdentifier>{5248757D-8853-4159-993F-C2572B36954D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TetrisUSFX01.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{6383CEC6-02BB-426A-A36C-F99C48BC3111}</UniqueIdentifier>
+      <UniqueIdentifier>{78A287AC-BAFD-44BB-9890-DF84231A22CA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TetrisUSFX01">
-      <UniqueIdentifier>{9FA52C1A-F0D9-46A2-9143-41BCA3912CCD}</UniqueIdentifier>
+      <UniqueIdentifier>{04DA0E5A-71CC-41ED-9A67-7856130E07A3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\ActorSpawnerComponent.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\ActorSpawnerComponent.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\AdaptadorMovimientoAleatorio_CA.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\AdaptadorMovimientoAleatorio_CA.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\AdaptadorPistola.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
@@ -104,16 +116,25 @@
     <ClInclude Include="..\..\Source\TetrisUSFX01\Honda.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TetrisUSFX01\Lodging.cpp">
-      <Filter>Source\TetrisUSFX01</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TetrisUSFX01\Lodging.h">
+    <ClInclude Include="..\..\Source\TetrisUSFX01\IPiezaPlano.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TetrisUSFX01\LodgingBuilder.cpp">
+    <ClCompile Include="..\..\Source\TetrisUSFX01\MovimientoAleatorio.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TetrisUSFX01\LodgingBuilder.h">
+    <ClInclude Include="..\..\Source\TetrisUSFX01\MovimientoAleatorio.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\MovimientoAleatorioComponent.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\MovimientoAleatorioComponent.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\MovimientoAleatorio_CA.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\MovimientoAleatorio_CA.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\Piece.cpp">
@@ -144,6 +165,12 @@
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TetrisUSFX01\Pistola.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\PruebaActoresCompuestos.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\PruebaActoresCompuestos.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
     <None Include="..\..\Source\TetrisUSFX01\TetrisUSFX01.Build.cs">
