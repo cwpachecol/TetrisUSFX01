@@ -1,0 +1,13 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/UnidadCuartel.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Cuartel.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Cuartel.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\UnidadCuartel.generated.h

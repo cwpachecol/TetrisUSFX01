@@ -1,0 +1,13 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/DelegateListener.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/PointLightComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LocalLightComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LightComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/LightComponentBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponentBase.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LightComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalLightComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PointLightComponent.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\DelegateListener.generated.h

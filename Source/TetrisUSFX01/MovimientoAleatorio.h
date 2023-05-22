@@ -25,4 +25,7 @@ public:
 	float DistanciaX;
 	float DistanciaY;
 	float DistanciaZ;
+	float TiempoTranscurrido;
+	float TiempoLimite;
+
 };

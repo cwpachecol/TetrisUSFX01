@@ -38,7 +38,7 @@ public: \
 
 #define TetrisUSFX01_Source_TetrisUSFX01_AdaptadorMovimientoAleatorio_CA_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UAdaptadorMovimientoAleatorio_CA(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UAdaptadorMovimientoAleatorio_CA(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAdaptadorMovimientoAleatorio_CA) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAdaptadorMovimientoAleatorio_CA); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdaptadorMovimientoAleatorio_CA); \
@@ -50,8 +50,6 @@ public:
 
 
 #define TetrisUSFX01_Source_TetrisUSFX01_AdaptadorMovimientoAleatorio_CA_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UAdaptadorMovimientoAleatorio_CA() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAdaptadorMovimientoAleatorio_CA(UAdaptadorMovimientoAleatorio_CA&&); \

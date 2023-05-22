@@ -1,0 +1,18 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Cuartel.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Cuartel.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\UnidadCuartel.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\UnidadCuartel.generated.h

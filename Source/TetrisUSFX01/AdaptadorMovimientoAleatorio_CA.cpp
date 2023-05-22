@@ -3,9 +3,18 @@
 
 #include "AdaptadorMovimientoAleatorio_CA.h"
 
-void UAdaptadorMovimientoAleatorio_CA::SetLimitesMovimiento(float XMovimiento, float YMovimiento, float ZMovimiento)
+UAdaptadorMovimientoAleatorio_CA::UAdaptadorMovimientoAleatorio_CA():
+	Super()
 {
-	AnchoMovimiento = ZMovimiento;
-	AltoMovimiento = YMovimiento;
-	ProfundidadMovimiento = ZMovimiento;
+	PrimaryComponentTick.bCanEverTick = true;
+
+	// ...
+	SetLimitesMovimiento(0.0f, 5.0f, 5.0f);
+}
+
+void UAdaptadorMovimientoAleatorio_CA::SetLimitesMovimiento(float _XMovimiento, float _YMovimiento, float _ZMovimiento)
+{
+	AnchoMovimiento = _ZMovimiento;
+	AltoMovimiento = _YMovimiento;
+	ProfundidadMovimiento = _ZMovimiento;
 }

@@ -16,5 +16,6 @@ class TETRISUSFX01_API UAdaptadorMovimientoAleatorio_CA : public UMovimientoAlea
 	GENERATED_BODY()
 	
 public:
-	void SetLimitesMovimiento(float XMovimiento, float YMovimiento, float ZMovimiento);
+	UAdaptadorMovimientoAleatorio_CA();
+	void SetLimitesMovimiento(float _XMovimiento, float _YMovimiento, float _ZMovimiento);
 };

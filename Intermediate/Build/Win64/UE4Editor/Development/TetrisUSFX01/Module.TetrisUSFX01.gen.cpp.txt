@@ -1,0 +1,80 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Development\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/ActorSpawnerComponent.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/ActorSpawnerComponent.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\ActorSpawnerComponent.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/AdaptadorMovimientoAleatorio_CA.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/AdaptadorMovimientoAleatorio_CA.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\MovimientoAleatorio_CA.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\MovimientoAleatorio_CA.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\MovimientoAleatorio.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\MovimientoAleatorio.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\AdaptadorMovimientoAleatorio_CA.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/AdaptadorPistola.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/AdaptadorPistola.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Honda.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Honda.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\AdaptadorPistola.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Block.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Block.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Block.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Bloque.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Bloque.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Bloque.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/BloqueExplosivo.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/BloqueExplosivo.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BloqueExplosivo.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/BloqueHielo.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/BloqueHielo.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BloqueHielo.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/BloqueMadera.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/BloqueMadera.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BloqueMadera.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/BloqueMetal.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/BloqueMetal.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BloqueMetal.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/BloquePiedra.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/BloquePiedra.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\BloquePiedra.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Board.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Board.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Piece.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\functional
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\isa_availability.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xutility
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Piece.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Board.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Cazador.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Cazador.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Cazador.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/FloorPlan.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/FloorPlan.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\FloorPlan.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Honda.gen.cpp
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/IPiezaPlano.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/IPiezaPlano.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\IPiezaPlano.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/MovimientoAleatorio.gen.cpp
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/MovimientoAleatorio_CA.gen.cpp
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Piece.gen.cpp
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Pieza.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Pieza.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\PiezaEstructura.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\PiezaEstructura.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Pieza.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/PiezaEstructura.gen.cpp
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/PiezasBuilder.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/PiezasBuilder.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\PiezasBuilder.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/Pistola.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/Pistola.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Pistola.generated.h
+C:/src_UE_ejemplos/TetrisUSFX01/Intermediate/Build/Win64/UE4Editor/Inc/TetrisUSFX01/PruebaActoresCompuestos.gen.cpp
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01/PruebaActoresCompuestos.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\PruebaActoresCompuestos.generated.h

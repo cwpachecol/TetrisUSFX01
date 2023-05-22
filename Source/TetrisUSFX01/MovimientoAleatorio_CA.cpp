@@ -14,14 +14,11 @@ UMovimientoAleatorio_CA::UMovimientoAleatorio_CA()
     RadioMovimiento = 5.0f;
     AnchoMovimiento = 0.0f;
     AltoMovimiento = 15.0f;
-    ProfundidaMovimiento = 5.0f;
+    ProfundidadMovimiento = 5.0f;
 
     TiempoAcumulado = 0.0;
-    TiempoLimite = 0.1;
-
-
+    TiempoLimite = 0.2;
 }
-
 
 // Called when the game starts
 void UMovimientoAleatorio_CA::BeginPlay()
@@ -54,7 +51,7 @@ void UMovimientoAleatorio_CA::TickComponent(float DeltaTime, ELevelTick TickType
                 (
                     FMath::FRandRange(-1, 1) * AnchoMovimiento,
                     FMath::FRandRange(-1, 1) * AltoMovimiento,
-                    FMath::FRandRange(-1, 1) * ProfundidaMovimiento
+                    FMath::FRandRange(-1, 1) * ProfundidadMovimiento
                 );
             // Update the object's position 
             Padre->SetActorLocation(NuevaPosicion);

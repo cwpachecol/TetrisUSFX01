@@ -4,9 +4,9 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Piece.h
 C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Block.h
 C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Block.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Piece.h
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\functional
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xmemory
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\limits
@@ -16,6 +16,12 @@ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.322
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\isa_availability.h
 C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xutility
 C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Piece.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\AdaptadorMovimientoAleatorio_CA.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\MovimientoAleatorio_CA.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\MovimientoAleatorio_CA.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\MovimientoAleatorio.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\MovimientoAleatorio.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\AdaptadorMovimientoAleatorio_CA.generated.h
 C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\TetrisUSFX01GameModeBase.generated.h
 C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Board.h
 C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Board.generated.h
@@ -31,3 +37,19 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\InventoryCharacter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\InventarioComponent.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\InventarioComponent.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\InventoryActor.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\InventoryActor.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\InventoryCharacter.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\ActorPruebas.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\ActorPruebas.generated.h

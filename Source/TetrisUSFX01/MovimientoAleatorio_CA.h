@@ -29,7 +29,7 @@ public:
 
 	float AnchoMovimiento;
 	float AltoMovimiento;
-	float ProfundidaMovimiento;
+	float ProfundidadMovimiento;
 
 	float TiempoAcumulado;
 	float TiempoLimite;
