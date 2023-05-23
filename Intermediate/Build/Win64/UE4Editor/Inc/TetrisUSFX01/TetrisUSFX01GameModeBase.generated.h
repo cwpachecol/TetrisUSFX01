@@ -13,18 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TETRISUSFX01_TetrisUSFX01GameModeBase_generated_h
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_SPARSE_DATA
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_RPC_WRAPPERS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_SPARSE_DATA
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execDestroyActorFunction);
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDestroyActorFunction);
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_INCLASS_NO_PURE_DECLS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATetrisUSFX01GameModeBase(); \
 	friend struct Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ATetrisUSFX01GameModeBase)
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_INCLASS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesATetrisUSFX01GameModeBase(); \
 	friend struct Z_Construct_UClass_ATetrisUSFX01GameModeBase_Statics; \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ATetrisUSFX01GameModeBase)
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_STANDARD_CONSTRUCTORS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATetrisUSFX01GameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATetrisUSFX01GameModeBase) \
@@ -55,7 +55,7 @@ private: \
 public:
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_ENHANCED_CONSTRUCTORS \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATetrisUSFX01GameModeBase(ATetrisUSFX01GameModeBase&&); \
@@ -66,28 +66,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATetrisUSFX01GameModeBase)
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_PRIVATE_PROPERTY_OFFSET
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_13_PROLOG
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_GENERATED_BODY_LEGACY \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_15_PROLOG
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_SPARSE_DATA \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_RPC_WRAPPERS \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_INCLASS \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_STANDARD_CONSTRUCTORS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_SPARSE_DATA \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_RPC_WRAPPERS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_INCLASS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_GENERATED_BODY \
+#define TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_SPARSE_DATA \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_INCLASS_NO_PURE_DECLS \
-	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_16_ENHANCED_CONSTRUCTORS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_SPARSE_DATA \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_INCLASS_NO_PURE_DECLS \
+	TetrisUSFX01_Source_TetrisUSFX01_TetrisUSFX01GameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -25,8 +25,13 @@ void ADecorador::Tick(float DeltaTime)
 
 }
 
-//void ADecorador::Rotar()
-//{
-//	Estructura->Rotar();
-//}
+void ADecorador::Rotar()
+{
+	Estructura->Rotar();
 
+}
+
+void ADecorador::SpawnBlocks()
+{
+	//Estructura->SpawnBlocks();
+}

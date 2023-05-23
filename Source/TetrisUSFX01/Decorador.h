@@ -24,12 +24,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	/*void Rotar() override;
-
+	virtual void Rotar() override;
+	virtual void SpawnBlocks() override;
 	void SetEstructura(IEstructura* _Estructura) {
 		Estructura = _Estructura;
-	};*/
+	}
 
 private:
-	//IEstructura* Estructura;
+	IEstructura* Estructura;
 };

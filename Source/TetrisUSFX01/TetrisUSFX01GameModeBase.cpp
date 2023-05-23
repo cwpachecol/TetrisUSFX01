@@ -32,18 +32,24 @@ void ATetrisUSFX01GameModeBase::BeginPlay()
     FTransform SpawnLocation;
     GetWorld()->SpawnActor<AActorPruebas>(AActorPruebas::StaticClass(), SpawnLocation);
 
-    FRotator Rotacion(0.0, 0.0, 0.0);
+    FRotator Rotacion1(0.0, 0.0, 0.0);
     FVector Ubicacion1(0.0, 50.0, 200.0);
-    SpawnedBlock1 = GetWorld()->SpawnActor<ABlock>(Ubicacion1, Rotacion);
+    SpawnedBlock1 = GetWorld()->SpawnActor<ABlock>(Ubicacion1, Rotacion1);
     AdaptadorMovimientoAleatorio1 = NewObject<UAdaptadorMovimientoAleatorio_CA>(SpawnedBlock1);
     AdaptadorMovimientoAleatorio1->RegisterComponent();
 
+    FRotator Rotacion2(0.0, 10.0, 50.0);
     FVector Ubicacion2(0.0, -70.0, 100.0);
-    SpawnedBlock2 = GetWorld()->SpawnActor<ABlock>(Ubicacion2, Rotacion);
+    SpawnedBlock2 = GetWorld()->SpawnActor<ABlock>(Ubicacion2, Rotacion2);
     AdaptadorMovimientoAleatorio2 = NewObject<UAdaptadorMovimientoAleatorio_CA>(SpawnedBlock2);
     AdaptadorMovimientoAleatorio2->SetLimitesMovimiento(10.0f, 20.0f, 20.0f);
     AdaptadorMovimientoAleatorio2->RegisterComponent();
 
+    FVector Ubicacion3(0.0, -140.0, 130.0);
+    FRotator Rotacion3(0.0, 0.0, 0.0);
+    EstructuraConcretaActual = GetWorld()->SpawnActor<AEstructuraConcreta>(Ubicacion3, Rotacion3);
+    EstructuraMultirotacionActual = GetWorld()->SpawnActor<AEstructuraMultirotacion>(AEstructuraMultirotacion::StaticClass());
+    EstructuraMultirotacionActual->SetEstructura(EstructuraConcretaActual);
     // Displays a red message on the screen for 10 seconds
     //GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, TEXT("Spawning un Block"));
     // Spawn an instance of the AMyFirstActor class at the
@@ -83,6 +89,8 @@ void ATetrisUSFX01GameModeBase::Tick(float DeltaTime)
     SpawnedPiece->SetActorRelativeLocation(FVector(0.0, 100.0, 0.0));
     SpawnedPiece->SpawnBlocks();*/ 
 
+    EstructuraConcretaActual->Rotar();
+    EstructuraMultirotacionActual->Rotar();
 }
 
 

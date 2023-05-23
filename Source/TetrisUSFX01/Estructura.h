@@ -29,12 +29,12 @@ public:
 	virtual void MoveLeft() = 0;
 	virtual void MoveRight() = 0;
 	virtual bool MoveDown() = 0;
-	virtual void Dismiss() = 0;
-	virtual void Rotar() = 0;*/
-private:
+	virtual void Dismiss() = 0;*/
+	virtual void Rotar() = 0;
+protected:
 
-	/*TArray<ABlock*> Blocks;*/
+	TArray<ABlock*> Blocks;
 
 public:
-	/*virtual void SpawnBlocks() = 0;*/
+	virtual void SpawnBlocks() = 0;
 };

@@ -1,0 +1,15 @@
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\DebugGame\TetrisUSFX01\Definitions.TetrisUSFX01.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\EstructuraConcreta.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Estructura.h
+C:\src_UE_ejemplos\TetrisUSFX01\Source\TetrisUSFX01\Block.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Block.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\Estructura.generated.h
+C:\src_UE_ejemplos\TetrisUSFX01\Intermediate\Build\Win64\UE4Editor\Inc\TetrisUSFX01\EstructuraConcreta.generated.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\vector
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\isa_availability.h
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\INCLUDE\xutility

@@ -6,6 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "Block.h"
 #include "Piece.h"
+#include "EstructuraConcreta.h"
+#include "EstructuraMultirotacion.h"
 #include "AdaptadorMovimientoAleatorio_CA.h"
 #include "TetrisUSFX01GameModeBase.generated.h"
 
@@ -36,6 +38,10 @@ public:
 	UAdaptadorMovimientoAleatorio_CA* AdaptadorMovimientoAleatorio1;
 	UAdaptadorMovimientoAleatorio_CA* AdaptadorMovimientoAleatorio2;
 
+
+	IEstructura* EstructuraActual;
+	AEstructuraConcreta* EstructuraConcretaActual;
+	AEstructuraMultirotacion* EstructuraMultirotacionActual;
 	UFUNCTION()
 	void DestroyActorFunction();
 

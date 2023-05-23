@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TetrisUSFX01.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{48638706-3EE6-4F22-B376-E51EB2B61765}</UniqueIdentifier>
+      <UniqueIdentifier>{52B22FB6-FF01-4404-A5A4-A42E6202EB3E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TetrisUSFX01.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{39CDCB6D-8AAC-4910-8C9E-0BDDA3BD2A24}</UniqueIdentifier>
+      <UniqueIdentifier>{A2026911-2E91-4939-8F19-4E3D87995566}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TetrisUSFX01">
-      <UniqueIdentifier>{F80F12C9-0878-4F2D-BBC5-7F1680C01E3C}</UniqueIdentifier>
+      <UniqueIdentifier>{59AF312E-0AEA-4681-AE11-C85A9A7B5C2A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TetrisUSFX01\ActorPruebas.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
@@ -116,6 +116,12 @@
     <ClInclude Include="..\..\Source\TetrisUSFX01\Cuartel.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\Decorador.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\Decorador.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\DelegateListener.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
@@ -132,6 +138,12 @@
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TetrisUSFX01\EstructuraConcreta.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\EstructuraMultirotacion.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\EstructuraMultirotacion.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\FloorPlan.cpp">
@@ -167,6 +179,12 @@
     <ClInclude Include="..\..\Source\TetrisUSFX01\IPiezaPlano.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\MiembroTripulacionNaveEspacial.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\MiembroTripulacionNaveEspacial.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\MovimientoAleatorio.cpp">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
@@ -183,6 +201,18 @@
       <Filter>Source\TetrisUSFX01</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TetrisUSFX01\MyTriggerVolume.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\OficialNavegacionNaveEspacial.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\OficialNavegacionNaveEspacial.h">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TetrisUSFX01\OficialOperacionesNaveEspacial.cpp">
+      <Filter>Source\TetrisUSFX01</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TetrisUSFX01\OficialOperacionesNaveEspacial.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TetrisUSFX01\OrbitingMovementComponent.cpp">
@@ -248,11 +278,5 @@
     <ClInclude Include="..\..\Source\TetrisUSFX01\UnidadCuartel.h">
       <Filter>Source\TetrisUSFX01</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\TetrisUSFX01\Decorador.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\TetrisUSFX01\Decorador.h" />
   </ItemGroup>
 </Project>
